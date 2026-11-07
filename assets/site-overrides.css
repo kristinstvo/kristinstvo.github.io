@@ -1,0 +1,12 @@
+@media (min-width: 768px) {
+  .floating-buttons.-right-bottom {
+    top: auto;
+    bottom: max(20px, env(safe-area-inset-bottom));
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+
+  .floating-buttons.-right-bottom > .group {
+    margin: 0;
+  }
+}
